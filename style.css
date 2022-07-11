@@ -396,11 +396,11 @@ section {
 }
 
 .swiper-slide:nth-child(1) .slide-img {
-  background-image: url("/someone-birthday/img/cake.png");
+  background-image: url("img/cake.png");
   margin-top: -200px !important;
 }
 .swiper-slide:nth-child(3) .slide-img {
-  background-image: url("/someone-birthday/img/bulb.png");
+  background-image: url("img/bulb.png");
   margin-top: -300px !important;
   margin-left: 100px;
 }
