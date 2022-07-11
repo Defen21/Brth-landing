@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Tara...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet" />
+    <iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=WqymcIXmUQ0&name=Full+CAM+THE+GIRLS+Cant+turn+me+down+Kep1er#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+    <style>
+      @keyframes teks1 {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes box {
+        0% {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .teks1 {
+        color: rgb(255, 255, 255);
+        font-family: arial;
+        font-size: 100px;
+        text-align: center;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+        animation: box 7s;
+        font-family: "Edu TAS Beginner", cursive;
+      }
+
+      .teks2 {
+        color: rgb(255, 255, 255);
+        font-family: arial;
+        font-size: 100px;
+        text-align: center;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+        animation: box 10s;
+        font-family: "Edu TAS Beginner", cursive;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+      }
+
+      .box {
+        display: block;
+        animation: box 5s;
+      }
+
+      model-viewer {
+        width: 600px;
+        height: 600px;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="song">
+      <audio autoplay loop><source src="img/Happy Birthday Song (KAIRU Lofi Remix) 1.mp3" type="audio/mp3" /></audio>
+    </div>
+    <a href="index.html">
+      <div class="teks1">Tara...</div>
+      <div class="teks2">Ya gitu aja sih</div>
+    </a>
+    <div class="box">
+      <model-viewer enable-pan src="3d/cakerin.glb" camera-controls auto-rotate environment-image="neutral" poster="poster.webp" disable-zoom></model-viewer>
+    </div>
+  </body>
+</html>
