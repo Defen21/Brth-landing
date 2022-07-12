@@ -9,16 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet" />
     <iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=WqymcIXmUQ0&name=Full+CAM+THE+GIRLS+Cant+turn+me+down+Kep1er#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
     <style>
-      @keyframes teks1 {
-        from {
-          opacity: 0;
-        }
-
-        to {
-          opacity: 1;
-        }
-      }
-
       @keyframes box {
         0% {
           opacity: 0;
@@ -51,6 +41,17 @@
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
         animation: box 10s;
         font-family: "Edu TAS Beginner", cursive;
+      }
+
+      .loading {
+        margin: auto;
+        left: 48%;
+        bottom: 34%;
+        text-align: center;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        animation: box 5s;
       }
 
       a {
@@ -87,6 +88,7 @@
       <div class="teks1">Tara...</div>
       <div class="teks2">Ya gitu aja sih</div>
     </a>
+    <div class="loading">Loading...</div>
     <div class="box">
       <model-viewer enable-pan src="3d/cakerin.glb" camera-controls auto-rotate environment-image="neutral" poster="poster.webp" disable-zoom></model-viewer>
     </div>
