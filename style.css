@@ -524,7 +524,7 @@ section {
   position: absolute;
 }
 /* mobile device */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   .footer {
     margin-top: 38%;
     color: #fff;
@@ -535,7 +535,7 @@ section {
   }
 
   .waves svg {
-    height: 20vh;
+    height: 23vh;
     width: 100%;
   }
 }
