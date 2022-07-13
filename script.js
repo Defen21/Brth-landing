@@ -4,7 +4,7 @@ let scene = document.getElementById("scene");
 let parallaxInstance = new Parallax(scene);
 
 //swiper
-let keys = ["Wishes", "Present", "Credit"];
+let keys = ["Wishes", "Present", "Source"];
 
 let slider = new Swiper(".swiper-container", {
   slidesPerView: "auto",
