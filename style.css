@@ -528,13 +528,14 @@ section {
   .footer {
     margin-top: 38%;
     color: #fff;
+    height: 7vh;
     background-color: #ff9bdd;
     background-size: 100%;
     text-align: center;
   }
 
   .waves svg {
-    height: 100%;
-    width: 200vw;
+    height: 20vh;
+    width: 100%;
   }
 }
