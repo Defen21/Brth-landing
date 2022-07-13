@@ -524,15 +524,14 @@ section {
   position: absolute;
 }
 /* mobile device */
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .footer {
     margin-top: 40%;
     color: #fff;
-
     background-color: #ff9bdd;
-    height: 10vh;
     text-align: center;
-    padding-top: 20px;
+    height: 10vh;
+    padding-top: 5%;
   }
 
   .waves svg {
