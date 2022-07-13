@@ -526,7 +526,7 @@ section {
 /* mobile device */
 @media only screen and (max-width: 576px) {
   .footer {
-    margin-top: 38%;
+    margin-top: 40%;
     color: #fff;
     height: 7vh;
     background-color: #ff9bdd;
