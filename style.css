@@ -185,6 +185,7 @@ section {
 .bawah {
   margin-top: 900px;
   z-index: 999;
+  position: fixed;
 }
 
 .atas {
@@ -521,4 +522,19 @@ section {
 }
 .slide-text h4 span {
   position: absolute;
+}
+/* mobile device */
+@media only screen and (max-width: 480px) {
+  .footer {
+    margin-top: 38%;
+    color: #fff;
+    background-color: #ff9bdd;
+    background-size: 100%;
+    text-align: center;
+  }
+
+  .waves svg {
+    height: 100%;
+    width: 200vw;
+  }
 }
